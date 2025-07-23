@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ClaimWatch – BLM Mining Claims Monitor</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Calcite -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@esri/calcite-components@2.13.2/dist/calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@esri/calcite-components@2.13.2/dist/calcite/calcite.css"/>
+  <!-- ArcGIS JS SDK -->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.30/"></script>
+  <!-- Custom -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <calcite-shell>
+    <header slot="header">
+      <h2 style="margin:0; padding:1rem;">ClaimWatch – Mining Claims Monitor</h2>
+    </header>
+    <div id="map-container" style="height:100vh; width:100vw;"></div>
+    <!-- UI Panels, AOI Draw, Results, etc. – can be added here -->
+  </calcite-shell>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
